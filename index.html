@@ -734,46 +734,46 @@
     <p style="color:#999;font-size:1rem;margin-bottom:64px;max-width:500px;margin-left:auto;margin-right:auto;">Tap any category to explore related projects in the gallery.</p>
     <div class="circle-services">
 
-      <div class="circle-card" onclick="jumpToGallery('featured')">
-        <div class="circle-img featured-ring">
-          <img src="fotos/1.jpeg" alt="Featured" />
-        </div>
-        <span>Featured</span>
-      </div>
-
       <div class="circle-card" onclick="jumpToGallery('roofing')">
         <div class="circle-img">
-          <img src="fotos/2.jpeg" alt="Roofing" />
+          <img src="fotos/ROOFING.jpg" alt="Roofing" />
         </div>
         <span>Roofing</span>
       </div>
 
       <div class="circle-card" onclick="jumpToGallery('siding')">
         <div class="circle-img">
-          <img src="fotos/3.jpeg" alt="Siding" />
+          <img src="fotos/SIDING-PVC-INSTALACION-1024x683.png" alt="Siding" />
         </div>
         <span>Siding</span>
       </div>
 
       <div class="circle-card" onclick="jumpToGallery('windows')">
         <div class="circle-img">
-          <img src="fotos/4.jpeg" alt="Windows" />
+          <img src="fotos/ventana.jpeg" alt="Windows" />
         </div>
         <span>Windows</span>
       </div>
 
       <div class="circle-card" onclick="jumpToGallery('gutters')">
         <div class="circle-img">
-          <img src="fotos/5.jpeg" alt="Gutters" />
+          <img src="fotos/25.jpeg" alt="Gutters" />
         </div>
         <span>Gutters</span>
       </div>
 
       <div class="circle-card" onclick="jumpToGallery('case-studies')">
         <div class="circle-img">
-          <img src="fotos/6.jpeg" alt="Case Studies" />
+          <img src="fotos/CASE STUDIES.jpg" alt="Case Studies" />
         </div>
         <span>Case Studies</span>
+      </div>
+
+      <div class="circle-card" onclick="jumpToGallery('featured')">
+        <div class="circle-img featured-ring">
+          <img src="fotos/FEATURED.jpg" alt="Featured" />
+        </div>
+        <span>Featured</span>
       </div>
 
     </div>
@@ -826,6 +826,206 @@
 </section>
 
 
+<!-- GALERÍA -->
+<section id="galeria">
+  <div class="gallery-section">
+    <p class="section-tag">Full Gallery</p>
+    <h2 class="section-title">45 <span>PROJECTS</span></h2>
+    <div class="gallery-filters" id="galleryFilters">
+      <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+      <button class="filter-btn" onclick="filterGallery('roofing', this)">Roofing</button>
+      <button class="filter-btn" onclick="filterGallery('siding', this)">Siding</button>
+      <button class="filter-btn" onclick="filterGallery('windows', this)">Windows</button>
+      <button class="filter-btn" onclick="filterGallery('gutters', this)">Gutters</button>
+      <button class="filter-btn" onclick="filterGallery('case-studies', this)">Case Studies</button>
+      <button class="filter-btn" onclick="filterGallery('featured', this)">Featured</button>
+    </div>
+    <div class="gallery-grid" id="galleryGrid">
+      
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/10.jpeg" alt="Proyecto 10" />
+        <div class="img-overlay"></div>
+        <span class="img-num">10</span>
+      </div>
+      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
+        <img src="fotos/11.jpeg" alt="Proyecto 11" />
+        <div class="img-overlay"></div>
+        <span class="img-num">11</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/12.jpeg" alt="Proyecto 12" />
+        <div class="img-overlay"></div>
+        <span class="img-num">12</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/13.jpeg" alt="Proyecto 13" />
+        <div class="img-overlay"></div>
+        <span class="img-num">13</span>
+      </div>
+      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
+        <img src="fotos/14.jpeg" alt="Proyecto 14" />
+        <div class="img-overlay"></div>
+        <span class="img-num">14</span>
+      </div>
+      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
+        <img src="fotos/15.jpeg" alt="Proyecto 15" />
+        <div class="img-overlay"></div>
+        <span class="img-num">15</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/16.jpeg" alt="Proyecto 16" />
+        <div class="img-overlay"></div>
+        <span class="img-num">16</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/17.jpeg" alt="Proyecto 17" />
+        <div class="img-overlay"></div>
+        <span class="img-num">17</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/18.jpeg" alt="Proyecto 18" />
+        <div class="img-overlay"></div>
+        <span class="img-num">18</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/19.jpeg" alt="Proyecto 19" />
+        <div class="img-overlay"></div>
+        <span class="img-num">19</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/20.jpeg" alt="Proyecto 20" />
+        <div class="img-overlay"></div>
+        <span class="img-num">20</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/21.jpeg" alt="Proyecto 21" />
+        <div class="img-overlay"></div>
+        <span class="img-num">21</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/22.jpeg" alt="Proyecto 22" />
+        <div class="img-overlay"></div>
+        <span class="img-num">22</span>
+      </div>
+      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
+        <img src="fotos/23.jpeg" alt="Proyecto 23" />
+        <div class="img-overlay"></div>
+        <span class="img-num">23</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/24.jpeg" alt="Proyecto 24" />
+        <div class="img-overlay"></div>
+        <span class="img-num">24</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/25.jpeg" alt="Proyecto 25" />
+        <div class="img-overlay"></div>
+        <span class="img-num">25</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/26.jpeg" alt="Proyecto 26" />
+        <div class="img-overlay"></div>
+        <span class="img-num">26</span>
+      </div>
+      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
+        <img src="fotos/27.jpeg" alt="Proyecto 27" />
+        <div class="img-overlay"></div>
+        <span class="img-num">27</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/28.jpeg" alt="Proyecto 28" />
+        <div class="img-overlay"></div>
+        <span class="img-num">28</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/29.jpeg" alt="Proyecto 29" />
+        <div class="img-overlay"></div>
+        <span class="img-num">29</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/30.jpeg" alt="Proyecto 30" />
+        <div class="img-overlay"></div>
+        <span class="img-num">30</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/31.jpeg" alt="Proyecto 31" />
+        <div class="img-overlay"></div>
+        <span class="img-num">31</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/32.jpeg" alt="Proyecto 32" />
+        <div class="img-overlay"></div>
+        <span class="img-num">32</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/33.jpeg" alt="Proyecto 33" />
+        <div class="img-overlay"></div>
+        <span class="img-num">33</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/34.jpeg" alt="Proyecto 34" />
+        <div class="img-overlay"></div>
+        <span class="img-num">34</span>
+      </div>
+      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
+        <img src="fotos/35.jpeg" alt="Proyecto 35" />
+        <div class="img-overlay"></div>
+        <span class="img-num">35</span>
+      </div>
+      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
+        <img src="fotos/36.jpeg" alt="Proyecto 36" />
+        <div class="img-overlay"></div>
+        <span class="img-num">36</span>
+      </div>
+      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
+        <img src="fotos/37.jpeg" alt="Proyecto 37" />
+        <div class="img-overlay"></div>
+        <span class="img-num">37</span>
+      </div>
+      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
+        <img src="fotos/38.jpeg" alt="Proyecto 38" />
+        <div class="img-overlay"></div>
+        <span class="img-num">38</span>
+      </div>
+      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
+        <img src="fotos/39.jpeg" alt="Proyecto 39" />
+        <div class="img-overlay"></div>
+        <span class="img-num">39</span>
+      </div>
+      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
+        <img src="fotos/40.jpeg" alt="Proyecto 40" />
+        <div class="img-overlay"></div>
+        <span class="img-num">40</span>
+      </div>
+      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
+        <img src="fotos/41.jpeg" alt="Proyecto 41" />
+        <div class="img-overlay"></div>
+        <span class="img-num">41</span>
+      </div>
+      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
+        <img src="fotos/42.jpeg" alt="Proyecto 42" />
+        <div class="img-overlay"></div>
+        <span class="img-num">42</span>
+      </div>
+      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
+        <img src="fotos/43.jpeg" alt="Proyecto 43" />
+        <div class="img-overlay"></div>
+        <span class="img-num">43</span>
+      </div>
+      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
+        <img src="fotos/44.jpeg" alt="Proyecto 44" />
+        <div class="img-overlay"></div>
+        <span class="img-num">44</span>
+      </div>
+      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
+        <img src="fotos/45.jpeg" alt="Proyecto 45" />
+        <div class="img-overlay"></div>
+        <span class="img-num">45</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- CARRUSEL -->
 <section class="carousel-section">
   <div class="carousel-header">
@@ -868,206 +1068,6 @@
     <button class="carousel-btn" onclick="prevSlide()">&#8592;</button>
     <div class="carousel-dots"><button class="carousel-dot active" onclick="goToSlide(0)"></button><button class="carousel-dot " onclick="goToSlide(1)"></button><button class="carousel-dot " onclick="goToSlide(2)"></button></div>
     <button class="carousel-btn" onclick="nextSlide()">&#8594;</button>
-  </div>
-</section>
-
-<!-- GALERÍA -->
-<section id="galeria">
-  <div class="gallery-section">
-    <p class="section-tag">Full Gallery</p>
-    <h2 class="section-title">45 <span>PROJECTS</span></h2>
-    <div class="gallery-filters" id="galleryFilters">
-      <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
-      <button class="filter-btn" onclick="filterGallery('featured', this)">Featured</button>
-      <button class="filter-btn" onclick="filterGallery('roofing', this)">Roofing</button>
-      <button class="filter-btn" onclick="filterGallery('siding', this)">Siding</button>
-      <button class="filter-btn" onclick="filterGallery('windows', this)">Windows</button>
-      <button class="filter-btn" onclick="filterGallery('gutters', this)">Gutters</button>
-      <button class="filter-btn" onclick="filterGallery('case-studies', this)">Case Studies</button>
-    </div>
-    <div class="gallery-grid" id="galleryGrid">
-      
-      <div class="gallery-item" data-cat="case-studies" onclick="openLightbox(this)">
-        <img src="fotos/10.jpeg" alt="Proyecto 10" />
-        <div class="img-overlay"></div>
-        <span class="img-num">10</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/11.jpeg" alt="Proyecto 11" />
-        <div class="img-overlay"></div>
-        <span class="img-num">11</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/12.jpeg" alt="Proyecto 12" />
-        <div class="img-overlay"></div>
-        <span class="img-num">12</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/13.jpeg" alt="Proyecto 13" />
-        <div class="img-overlay"></div>
-        <span class="img-num">13</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/14.jpeg" alt="Proyecto 14" />
-        <div class="img-overlay"></div>
-        <span class="img-num">14</span>
-      </div>
-      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
-        <img src="fotos/15.jpeg" alt="Proyecto 15" />
-        <div class="img-overlay"></div>
-        <span class="img-num">15</span>
-      </div>
-      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
-        <img src="fotos/16.jpeg" alt="Proyecto 16" />
-        <div class="img-overlay"></div>
-        <span class="img-num">16</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/17.jpeg" alt="Proyecto 17" />
-        <div class="img-overlay"></div>
-        <span class="img-num">17</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/18.jpeg" alt="Proyecto 18" />
-        <div class="img-overlay"></div>
-        <span class="img-num">18</span>
-      </div>
-      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
-        <img src="fotos/19.jpeg" alt="Proyecto 19" />
-        <div class="img-overlay"></div>
-        <span class="img-num">19</span>
-      </div>
-      <div class="gallery-item" data-cat="case-studies" onclick="openLightbox(this)">
-        <img src="fotos/20.jpeg" alt="Proyecto 20" />
-        <div class="img-overlay"></div>
-        <span class="img-num">20</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/21.jpeg" alt="Proyecto 21" />
-        <div class="img-overlay"></div>
-        <span class="img-num">21</span>
-      </div>
-      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
-        <img src="fotos/22.jpeg" alt="Proyecto 22" />
-        <div class="img-overlay"></div>
-        <span class="img-num">22</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/23.jpeg" alt="Proyecto 23" />
-        <div class="img-overlay"></div>
-        <span class="img-num">23</span>
-      </div>
-      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
-        <img src="fotos/24.jpeg" alt="Proyecto 24" />
-        <div class="img-overlay"></div>
-        <span class="img-num">24</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/25.jpeg" alt="Proyecto 25" />
-        <div class="img-overlay"></div>
-        <span class="img-num">25</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/26.jpeg" alt="Proyecto 26" />
-        <div class="img-overlay"></div>
-        <span class="img-num">26</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/27.jpeg" alt="Proyecto 27" />
-        <div class="img-overlay"></div>
-        <span class="img-num">27</span>
-      </div>
-      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
-        <img src="fotos/28.jpeg" alt="Proyecto 28" />
-        <div class="img-overlay"></div>
-        <span class="img-num">28</span>
-      </div>
-      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
-        <img src="fotos/29.jpeg" alt="Proyecto 29" />
-        <div class="img-overlay"></div>
-        <span class="img-num">29</span>
-      </div>
-      <div class="gallery-item" data-cat="featured" onclick="openLightbox(this)">
-        <img src="fotos/30.jpeg" alt="Proyecto 30" />
-        <div class="img-overlay"></div>
-        <span class="img-num">30</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/31.jpeg" alt="Proyecto 31" />
-        <div class="img-overlay"></div>
-        <span class="img-num">31</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/32.jpeg" alt="Proyecto 32" />
-        <div class="img-overlay"></div>
-        <span class="img-num">32</span>
-      </div>
-      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
-        <img src="fotos/33.jpeg" alt="Proyecto 33" />
-        <div class="img-overlay"></div>
-        <span class="img-num">33</span>
-      </div>
-      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
-        <img src="fotos/34.jpeg" alt="Proyecto 34" />
-        <div class="img-overlay"></div>
-        <span class="img-num">34</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/35.jpeg" alt="Proyecto 35" />
-        <div class="img-overlay"></div>
-        <span class="img-num">35</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/36.jpeg" alt="Proyecto 36" />
-        <div class="img-overlay"></div>
-        <span class="img-num">36</span>
-      </div>
-      <div class="gallery-item" data-cat="featured" onclick="openLightbox(this)">
-        <img src="fotos/37.jpeg" alt="Proyecto 37" />
-        <div class="img-overlay"></div>
-        <span class="img-num">37</span>
-      </div>
-      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
-        <img src="fotos/38.jpeg" alt="Proyecto 38" />
-        <div class="img-overlay"></div>
-        <span class="img-num">38</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/39.jpeg" alt="Proyecto 39" />
-        <div class="img-overlay"></div>
-        <span class="img-num">39</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/40.jpeg" alt="Proyecto 40" />
-        <div class="img-overlay"></div>
-        <span class="img-num">40</span>
-      </div>
-      <div class="gallery-item" data-cat="windows" onclick="openLightbox(this)">
-        <img src="fotos/41.jpeg" alt="Proyecto 41" />
-        <div class="img-overlay"></div>
-        <span class="img-num">41</span>
-      </div>
-      <div class="gallery-item" data-cat="gutters" onclick="openLightbox(this)">
-        <img src="fotos/42.jpeg" alt="Proyecto 42" />
-        <div class="img-overlay"></div>
-        <span class="img-num">42</span>
-      </div>
-      <div class="gallery-item" data-cat="roofing" onclick="openLightbox(this)">
-        <img src="fotos/43.jpeg" alt="Proyecto 43" />
-        <div class="img-overlay"></div>
-        <span class="img-num">43</span>
-      </div>
-      <div class="gallery-item" data-cat="featured" onclick="openLightbox(this)">
-        <img src="fotos/44.jpeg" alt="Proyecto 44" />
-        <div class="img-overlay"></div>
-        <span class="img-num">44</span>
-      </div>
-      <div class="gallery-item" data-cat="siding" onclick="openLightbox(this)">
-        <img src="fotos/45.jpeg" alt="Proyecto 45" />
-        <div class="img-overlay"></div>
-        <span class="img-num">45</span>
-      </div>
-    </div>
   </div>
 </section>
 
